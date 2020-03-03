@@ -1,0 +1,12 @@
+{
+  "name": "blockmove-api-node",
+  "version": "1.1.2",
+  "description": "Node.js API Library for Blockmove.io service",
+  "main": "./lib/blockmove-client.js",
+  "keywords": [],
+  "author": "dev@blockmove.io",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
