@@ -81,6 +81,32 @@ Api.getTx({
 }, printResponse);
 
 
+/**
+ * Getting wallet transaction history example
+ */
+
+// Parameters for displaying records rows
+let records_params = {
+	limit: 10,
+	offset: 5
+};
+
+Api.getWalletHistory({
+	wallet_id: WALLET_ID,
+	params: records_params,
+	token: token
+}, printResponse);
+
+
+/**
+ * Getting address transaction history example
+ */
+Api.getAddressHistory({
+	address: address,
+	params: records_params,
+	token: token
+}, printResponse);
+
 
 /**
  * Sending payment example
